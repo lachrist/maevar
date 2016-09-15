@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-var ChildProcess = require("child_process");
 var Fs = require("fs");
+var Path = require("path");
+var ChildProcess = require("child_process");
 var Read = require("read");
 
 if (process.argv.length !== 3) {
@@ -10,7 +11,7 @@ if (process.argv.length !== 3) {
 }
 
 var encrypted = process.argv[2];
-var decrypted = __dirname+"/tmp.txt";
+var decrypted = Path.dirname(encrypted)+"/tmp.txt";
 
 function check (error) {
   if (error) {
