@@ -1,0 +1,11 @@
+{ "name" : "maevar"
+, "description" : "A simple command-line tool to edit an encrypted file"
+, "version" : "0.0.0"
+, "author" : {"name":"Laurent Christophe", "email":"lachrist@vub.ac.be"}
+, "repository": "lachrist/maevar"
+, "homepage": "http://github.com/lachrist/maevar"
+, "license" : "MIT"
+, "dependencies": {"read": "1.0.x"}
+, "bin": "bin.js"
+, "keywords" : ["Edit", "Encryption", "Security", "openssl", "vim"]
+}
