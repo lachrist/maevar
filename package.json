@@ -1,6 +1,6 @@
 { "name" : "maevar"
 , "description" : "A simple command-line tool to edit an encrypted file"
-, "version" : "0.0.1"
+, "version" : "0.0.2"
 , "author" : {"name":"Laurent Christophe", "email":"lachrist@vub.ac.be"}
 , "repository": "lachrist/maevar"
 , "homepage": "http://github.com/lachrist/maevar"
