@@ -1,0 +1,1 @@
+["/usr/local/bin/node","/Users/lachrist/Desktop/workspace/maevar/prompt.js","Infinity"] >> null >> Infinity
